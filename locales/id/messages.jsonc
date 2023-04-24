@@ -1,0 +1,1430 @@
+{
+    // For details on what to translate, see README.md file
+
+    // Name and description that appears on all stores, and in chrome://extensions
+    "manifest_name": {
+        "message": "RoSeal - Pengalaman Roblox Yang Diperbesarkan"
+    },
+    "manifest_description": {
+        "message": "Tingkatkan pengalaman situs Roblox anda. Juga ada anjing laut."
+    },
+
+    // Popover dropdown menu for the roseal item
+    "robloxsettings_popover_roseal": {
+        "message": "{sealEmoji} Pengaturan Roseal"
+    },
+
+    // Appears in the RoSeal settings, "Beta" and "Experimental" labels
+    "beta_feature_label": {
+        "message": "BETA"
+    },
+    "experimental_feature_label": {
+        "message": "EKSPERIMENTAL"
+    },
+
+    // the 404 error page that appears if request is not valid.
+    // currently, it's only used by the developer product 404 page
+    "errorpage_404_title": {
+        "message": "Halaman tidak dapat ditemukan atau tidak ada lagi"
+    },
+    "errorpage_404_message": {
+        "message": "{sealEmoji} 404 <span>|</span>Halaman Tidak Ditemukan"
+    },
+    "errorpage_back": {
+        "message": "Kembali"
+    },
+    "errorpage_back_title": {
+        "message": "Buka Halaman Sebelumnya"
+    },
+    "errorpage_home": {
+        "message": "Beranda"
+    },
+    "errorpage_home_title": {
+        "message": "Kembali ke Beranda"
+    },
+
+    // Hello variant of the home header feature
+    "homeheader_hellotext": {
+        "message": "Halo, {displayName}"
+    },
+
+    // "RoSeal Settings" item label in the roblox settings navigation list
+    "robloxsettings_selection_roseal": {
+        "message": "Pengaturan Roseal"
+    },
+
+    // RoSeal settings titles
+    "settings_title": {
+        "message": "Pengaturan Roseal {sealEmoji} Saya"
+    },
+    "settings_return": {
+        "message": "Kembali ke Pengaturan Roseal"
+    },
+
+    // "About" selection in menu and title
+    "settings_selection_about": {
+        "message": "Tentang RoSeal"
+    },
+    "settings_about_description": {
+        "message": "<bold>RoSeal</bold> adalah ekstensi browser untuk Roblox yang bertema anjing laut dengan fitur dan peningkatan yang dapat dialihkan secara individual, tanpa paywalls atau pelacakan."
+    },
+    // under13 is for 13- users over13 is for 13+. this is to prevent exposing discord to underage users
+    "settings_about_media_under13": {
+        "message": "Ada sebuah komunitas <groupLink>Grup Roblox</groupLink> untuk ekstensi ini."
+    },
+    "settings_about_media_over13": {
+        "message": "Ada sebuah komunitas <groupLink>Grup Roblox</groupLink> dan sebuah <discordLink>Server Discord</discordLink>  untuk ekstensi ini."
+    },
+
+    // "Credits" selection tab in menu and title
+    "settings_about_credits_header": {
+        "message": "Kredits"
+    },
+    "settings_about_credits_Julli4n": {
+        "message": "<link>Julli4n</link> - Pengembang Utama"
+    },
+    "settings_about_credits_Karasuneth": {
+        "message": "<link>Karasuneth</link> - Mendesain ikon asli"
+    },
+    "settings_about_credits_MaciejCreates": {
+        "message": "<link>MaciejCreates</link> - Mendesain ikon"
+    },
+
+    // "Feature Switches" selection tab in menu and title
+    "settings_about_featureswitches_header": {
+        "message": "Switch Fitur"
+    },
+    "settings_about_featureswitches_description": {
+        "message": "Switch Fitur adalah cara cepat untuk mengaktifkan dan menonaktifkan fitur RoSeal sesuai keinginan Anda."
+    },
+    "settings_about_featureswitches_beta": {
+        "message": "<label>BETA</label> fitur belum siap untuk dihidupkan secara otomatis; namun, harus ada risiko minimal dalam mengaktifkannya. Setiap orang dipersilakan untuk mengaktifkan dan memberikan umpan balik."
+    },
+    "settings_about_featureswitches_experimental": {
+        "message": "<label>EXPERIMENTAL</label> fitur tidak stabil yang mungkin tidak akan stabil atau tes untuk fitur yang akan datang. PENTING: Jangan aktifkan fitur ini kecuali Anda tahu risikonya"
+    },
+
+    // "Donate" selection tab in menu and title
+    "settings_selection_donate": {
+        "message": "Donasi"
+    },
+    "settings_donate_description": {
+        "message": "Saya, <bold>Julli4n</bold>, tidak mendapat untung dari pengembangan ekstensi ini. Harap pertimbangkan untuk menyumbang jika Anda telah menikmati ekstensi. Anda tidak akan diberikan manfaat apa pun, hanya ucapan terima kasih.{lineBreak}{lineBreak}Anda akan dialihkan ke BuyMeACoffee, situs pihak ke-3 untuk donasi."
+    },
+
+    // selected tab
+    "settings_selection_featureswitches": {
+        "message": "Switch Fitur"
+    },
+    // feature switch details
+    "settings_featureswitches_featureswitch_disabled": {
+        "message": "Fitur ini telah dinonaktifkan oleh RoSeal"
+    },
+    "settings_featureswitches_featureswitch_exclusivebrowsers": {
+        "message": "Eksklusif untuk browser berikut: {browsers}"
+    },
+    "settings_featureswitches_featureswitch_permissions_title": {
+        "message": "Izin Diperlukan"
+    },
+    "settings_featureswitches_featureswitch_permissions_values_Cookies": {
+        "message": "Cookies"
+    },
+    "settings_featureswitches_featureswitch_permissions_subtext": {
+        "message": "Izin dapat diberikan dalam dialog popup RoSeal dari toolbar browser"
+    },
+    "settings_featureswitches_featureswitch_removeassociatedstorage": {
+        "message": "Hapus Penyimpanan Terkait"
+    },
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_success": {
+        "message": "Berhasil menghapus penyimpanan terkait untuk fitur ini."
+    },
+    "settings_featureswitches_featureswitch_removeassociatedstorage_systemfeedback_error": {
+        "message": "Terjadi kesalahan saat menghapus penyimpanan terkait untuk fitur ini, harap coba lagi nanti."
+    },
+
+    // "Blocked Experiences" selection tab in menu and title
+    "settings_selection_blockedexperiences": {
+        "message": "Pengalaman yang Diblokir"
+    },
+    "settings_blockedexperiences_keywords_title": {
+        "message": "Kata Kunci yang Diblokir"
+    },
+    "settings_blockedexperiences_keywords_description": {
+        "message": "Kata kunci dapat ditambahkan dan dihapus untuk memblokir pengalaman yang namanya cocok dengan salah satu kata kunci yang ditambahkan. Pengalaman ini tidak akan ditampilkan di beberapa halaman umum."
+    },
+    "settings_blockedexperiences_keywords_count": {
+        "message": "Anda memblockir {keywordsNum} dari {keywordsMax} kata kunci pengalaman yang diizinkan:"
+    },
+    "settings_blockedexperiences_keywords_nokeywords": {
+        "message": "Tambahkan kata kunci pertama Anda ingin diblokir untuk memulai."
+    },
+    "settings_blockedexperiences_keywords_inputplaceholder": {
+        "message": "Tambahkan kata kunci..."
+    },
+    "settings_blockedexperiences_keywords_add": {
+        "message": "Tambahkan"
+    },
+    "settings_blockedexperiences_keywords_keyword_remove": {
+        "message": "Hapuskan"
+    },
+
+    "settings_blockedexperiences_individualexperiences_title": {
+        "message": "Pengalaman Diblokir Individu"
+    },
+    "settings_blockedexperiences_individualexperiences_description": {
+        "message": "Pengalaman individual dapat diblokir dan dibuka blokirnya dari menu konteks pada halaman pengalaman. Pengalaman ini tidak akan ditampilkan di beberapa halaman umum."
+    },
+    "settings_blockedexperiences_individualexperiences_count": {
+        "message": "Anda memblokir {experiencesNum} dari {experiencesMax} pengalaman yang diizinkan:"
+    },
+    "settings_blockedexperiences_individualexperiences_noexperiences": {
+        "message": "When you block an experience, it will show up here."
+    },
+    "settings_blockedexperiences_individualexperiences_experience_universeid": {
+        "message": "ID Universal: {universeId}"
+    },
+    "settings_blockedexperiences_individualexperiences_experience_unblock": {
+        "message": "Buka blokir"
+    },
+
+    "settings_blockedexperiences_section_hide": {
+        "message": "Sembunyikan"
+    },
+    "settings_blockedexperiences_section_show": {
+        "message": "Tunjukkan"
+    },
+
+    // Account Settings dropdown strings
+    "accountsmanager_entry_login_disabled": {
+        "message": "Sudah Masuk"
+    },
+    "accountsmanager_entry_login": {
+        "message": "Masuk"
+    },
+    "accountsmanager_entry_logout": {
+        "message": "Hapuskan"
+    },
+    "accountsmanager_title": {
+        "message": "{sealEmoji} Pengelola Akun"
+    },
+    "accountsmanager_noaccounts": {
+        "message": "Anda tidak memiliki akun. Tambahkan akun Anda untuk memulai."
+    },
+    "accountsmanager_noaccounts_disabled": {
+        "message": "Anda tidak memiliki akun. Masuk dan tambahkan akun Anda untuk memulai."
+    },
+    "accountsmanager_maxaccounts": {
+        "message": "Anda telah mencapai jumlah maksimum akun yang diizinkan. ({accountLimit})"
+    },
+    "accountsmanager_addaccount": {
+        "message": "Anda bisa tambahkan {moreAccounts, plural, =1 {1 more account.} lainnya {# more accounts.}} ({accountsNum}/{accountLimit})"
+    },
+    "accountsmanager_actions_addcurrentaccount": {
+        "message": "Tambahkan akun saat ini"
+    },
+    "accountsmanager_actions_clearcurrentcookie": {
+        "message": "Keluar"
+    },
+
+    "accountsmanager_success_AddCurrentRobloxAccount": {
+        "message": "Berhasil menambahkan akun Roblox saat ini ke daftar."
+    },
+    "accountsmanager_success_LogoutRobloxAccount": {
+        "message": "Berhasil membatalkan sesi dan menghapus akun Roblox dari daftar."
+    },
+
+    "accountsmanager_error_UnknownError": {
+        "message": "Terjadi kesalahan yang tidak diketahui, harap coba lagi nanti."
+    },
+    "accountsmanager_error_EndpointError": {
+        "message": "Terjadi kesalahan saat mencoba membatalkan sesi, harap coba lagi nanti."
+    },
+    "accountsmanager_error_InvalidAccount": {
+        "message": "Akun tidak valid, harap muat ulang halaman."
+    },
+    "accountsmanager_error_NoCookiePermission": {
+        "message": "RoSeal tidak memiliki izin untuk mengelola cookie browser. Izinkan dalam dialog munculan RoSeal dari bilah alat peramban."
+    },
+
+    // The context menu "..." item that appears in the item dropdown menu to view the icon asset
+    "experience_contextmenu_viewiconasset": {
+        "message": "Lihat Aset Ikon"
+    },
+
+    // The context menu "..." item that appears in the experience dropdown menu to unblock/block the target experience
+    "experience_contextmenu_unblock": {
+        "message": "Buka blokir"
+    },
+    "experience_contextmenu_block": {
+        "message": "Blokirkan"
+    },
+
+    // "Universe ID {number}" text under About
+    "experience_universeid": {
+        "message": "ID Universal"
+    },
+
+    "generalasset_productid": {
+        "message": "ID Produk"
+    },
+    "collectibleasset_collectibleitemid": {
+        "message": "ID Barang Koleksi"
+    },
+    "collectibleasset_collectibleproductid": {
+        "message": "ID Produk Koleksi"
+    },
+
+    "developerproduct_productid": {
+        "message": "ID Produk"
+    },
+
+    "avataritem_refreshdetails": {
+        "message": "Muat Ulang Detail Item"
+    },
+
+    "pass_productid": {
+        "message": "ID Produk"
+    },
+
+    "bundle_productid": {
+        "message": "ID Produk"
+    },
+
+    // Text to show if an experience is blocked, and to view it anyways
+    "experience_blocked_title": {
+        "message": "Pangalaman ini diblokir"
+    },
+    "experience_blocked_viewanyway": {
+        "message": "Bukalah Bagaimanapun"
+    },
+
+    "experience_store_selection_passes": {
+        "message": "Produk"
+    },
+    "experience_store_selection_developerproducts": {
+        "message": "Produk-Produk Pengembang"
+    },
+    "experience_developerproducts_filtering_offsale": {
+        "message": "Tunjukkan Barang Yang Tidak Dijual"
+    },
+    "experience_developerproducts_filtering_onsale": {
+        "message": "Tunjukkan Barang Yang Dijual"
+    },
+    "experience_developerproducts_genericerror": {
+        "message": "Terjadi kesalahan saat mencoba mengambil produk pengembang, harap coba lagi nanti."
+    },
+    "experience_developerproducts_nodeveloperproducts": {
+        "message": "Tidak ada produk pengembang yang tersedia."
+    },
+    "experience_developerproducts_nodeveloperproductsfiltered": {
+        "message": "Tidak ada produk pengembang yang tersedia dari penelusuran Anda."
+    },
+
+    "experience_passes_filtering_offsale": {
+        "message": "Masukan Barang Yang Tidak Dijual"
+    },
+    "experience_passes_filtering_onsale": {
+        "message": "Masukan Barang Yang Dijual"
+    },
+    "experience_passes_filtering_unowned": {
+        "message": "Masukan Barang Yang Tidak Anda Miliki"
+    },
+    "experience_passes_filtering_owned": {
+        "message": "Masukan Barang Yang Anda Miliki"
+    },
+    "experience_passes_filtering_user": {
+        "message": "Lihat Sebagai:"
+    },
+    "experience_passes_genericerror": {
+        "message": "Terjadi kesalahan saat mencoba mengambil passes, coba lagi nanti."
+    },
+    "experience_passes_nopasses": {
+        "message": "Tidak ada passes yang tersedia."
+    },
+    "experience_passes_nopassesfiltered": {
+        "message": "Tidak ada passes yang tersedia dari pencarian Anda."
+    },
+    "experience_passes_entry_owned": {
+        "message": "Dimiliki"
+    },
+    "experience_passes_entry_buy": {
+        "message": "Beli"
+    },
+    "experience_passes_addpass": {
+        "message": "Tambah Pass"
+    },
+
+    "experience_avatarrestricted": {
+        "message": "Avatar Anda saat ini mungkin tidak terlihat atau berfungsi sebagaimana mestinya dalam pengalaman ini."
+    },
+    "experience_avatartype_label": {
+        "message": "Tipe Avatar"
+    },
+    "experience_avatartype_values_ForcedRthro": {
+        "message": "Rthro"
+    },
+    "experience_avatartype_values_R15Rthro": {
+        "message": "R15, Rthro"
+    },
+    "experience_avatartype_values_R6": {
+        "message": "R6"
+    },
+    "experience_avatartype_values_R15": {
+        "message": "R15"
+    },
+    "experience_avatartype_values_PlayerChoice": {
+        "message": "Pilihan Pengguna"
+    },
+
+    "item_offsale_long": {
+        "message": "Item ini saat ini tidak untuk dijual."
+    },
+    "item_offsale_short": {
+        "message": "Tidak Dijual"
+    },
+
+    "developerproduct_offsale": {
+        "message": "Barang ini tidak dijual"
+    },
+    "developerproduct_price": {
+        "message": "Harga"
+    },
+    "developerproduct_type": {
+        "message": "Tipe"
+    },
+    "developerproduct_type_value": {
+        "message": "Produk Pengembang"
+    },
+    "developerproduct_created": {
+        "message": "Dibuat"
+    },
+    "developerproduct_updated": {
+        "message": "Diperbarui"
+    },
+    "developerproduct_description": {
+        "message": "Deskripsi"
+    },
+    "developerproduct_contextmenu_viewiconasset": {
+        "message": "Lihat Aset Ikon"
+    },
+
+    "ppupdatemodal_title": {
+        "message": "{sealEmoji} Pembaruan Kebijakan Privasi RoSeal"
+    },
+    "ppupdatemodal_description": {
+        "message": "Kami telah memperbarui Kebijakan Privasi RoSeal sejak terakhir kali Anda berkunjung.{lineBreak}{lineBreak}<privacyPolicyLink>Baca Kebijakan Privasi</privacyPolicyLink>"
+    },
+    "ppupdatemodal_action": {
+        "message": "Terima"
+    },
+
+    "robloxlogoutmodal_title": {
+        "message": "{sealEmoji} Apa kamu yakin?"
+    },
+    "robloxlogoutmodal_body": {
+        "message": "Dengan menggunakan tombol keluar default Roblox, Anda akan membatalkan sesi saat ini.{lineBreak}{lineBreak}Anda tidak akan dapat login ke akun ini dengan Pengelola Akun tanpa melalui halaman login Roblox lagi.{lineBreak}{lineBreak}Untuk logout tanpa membatalkan sesi, buka Pengelola Akun dan klik \"Keluar\"."
+    },
+    "robloxlogoutmodal_action": {
+        "message": "Keluar"
+    },
+    "robloxlogoutmodal_neutral": {
+        "message": "Batalkan"
+    },
+
+    "experience_communitywiki_button": {
+        "message": "Wiki Komunitas Tidak Resmi"
+    },
+    "experience_communitywiki_modal_title": {
+        "message": "{sealEmoji} Anda meninggalkan Roblox"
+    },
+    "experience_communitywiki_modal_body": {
+        "message": "Perhatian, Robloxian – dengan mengeklik “lanjutkan,” Anda akan dialihkan ke Fandom, yang tidak dimiliki atau dioperasikan oleh Roblox. Mereka mungkin memiliki ketentuan dan kebijakan privasi yang berbeda.{lineBreak}{lineBreak}Wiki Komunitas tidak resmi tempat Anda akan diarahkan adalah bagian dari Proyek Roblox Interwiki di Fandom, dan bergantung pada suntingan komunitas. Informasi mungkin kontroversial, dirusak, ketinggalan jaman, atau dimanipulasi."
+    },
+    "experience_communitywiki_modal_action": {
+        "message": "Lanjutkan"
+    },
+    "experience_communitywiki_modal_neutral": {
+        "message": "Batalkan"
+    },
+
+    "avataritem_successmessage_Purchase": {
+        "message": "Anda telah berhasil membeli barang ini."
+    },
+    "avataritem_errormessage_Load": {
+        "message": "Anda sendang dibatasi, silakan coba lagi nanti."
+    },
+    "avataritem_errormessage_Purchase": {
+        "message": "Tidak dapat membeli barang, diberi alasan: \"{reason}\""
+    },
+
+    "experience_media_alttext": {
+        "message": "ALT"
+    },
+    "experience_media_viewthumbnailasset": {
+        "message": "Lihat Aset Gambar Kecil"
+    },
+
+    "homeheader_secretmessage_Default1": {
+        "message": "Halo, user!"
+    },
+    "homeheader_secretmessage_Default2": {
+        "message": "Kita memainkan Roblox!"
+    },
+    "homeheader_secretmessage_Default3": {
+        "message": "ROBLOX"
+    },
+    "homeheader_secretmessage_Default4": {
+        "message": "roblox"
+    },
+    "homeheader_secretmessage_Default5": {
+        "message": "Apakah kamu merindukan Tix?"
+    },
+    "homeheader_secretmessage_Default6": {
+        "message": "anjing laut"
+    },
+    "homeheader_secretmessage_Default7": {
+        "message": "Selamat Tinggal, LegacyApi!"
+    },
+    "homeheader_secretmessage_Default8": {
+        "message": "Berhenti bolos sekolah."
+    },
+    "homeheader_secretmessage_Default9": {
+        "message": "Boikot pengalaman buruk, tolak pengalaman bajakan."
+    },
+    "homeheader_secretmessage_Default10": {
+        "message": "Waspadai pembelaan diri dan tertipu."
+    },
+    "homeheader_secretmessage_Default11": {
+        "message": "Bermain memang baik untuk otak Anda, tetapi terlalu banyak bermain dapat membahayakan kesehatan Anda."
+    },
+    "homeheader_secretmessage_Default12": {
+        "message": "Kelola waktu Anda dengan baik dan nikmati gaya hidup sehat."
+    },
+    "homeheader_secretmessage_Default13": {
+        "message": "Bayangkan 1M Robux..."
+    },
+    "homeheader_secretmessage_Default14": {
+        "message": "Apa kabarmu?"
+    },
+    "homeheader_secretmessage_Default15": {
+        "message": "Kami harap Anda menikmati RoSeal."
+    },
+    "homeheader_secretmessage_Default16": {
+        "message": "Hehehe..."
+    },
+    "homeheader_secretmessage_Default17": {
+        "message": "Segala sesuatu di Roblox terjadi di belakang mata semua orang."
+    },
+    "homeheader_secretmessage_Default18": {
+        "message": "[ Konten Dihapus ]"
+    },
+    "homeheader_secretmessage_Default19": {
+        "message": "Ini bukan pesan percobaan."
+    },
+    "homeheader_secretmessage_Default20": {
+        "message": "kucing."
+    },
+    "homeheader_secretmessage_Default21": {
+        "message": "burung."
+    },
+    "homeheader_secretmessage_Default22": {
+        "message": "Masukan gambar anjing laut disini"
+    },
+    "homeheader_secretmessage_Default23": {
+        "message": "Masukan gambar kucing disini"
+    },
+    "homeheader_secretmessage_Default24": {
+        "message": "Masukan gambar burung disini"
+    },
+    "homeheader_secretmessage_Default25": {
+        "message": "Roblox mati?"
+    },
+    "homeheader_secretmessage_Default26": {
+        "message": "David Baszucki"
+    },
+    "homeheader_secretmessage_Default27": {
+        "message": "Apakah kamu ingat guests?"
+    },
+    "homeheader_secretmessage_Default28": {
+        "message": "Apakah Anda ingat forum lama?"
+    },
+    "homeheader_secretmessage_Default29": {
+        "message": "Halo!"
+    },
+    "homeheader_secretmessage_Default30": {
+        "message": "um... enak?"
+    },
+
+    "homeheader_secretmessage_BetaTester1": {
+        "message": "Seorang penguji beta? Kamu pikir kamu keren?"
+    },
+    "homeheader_secretmessage_BetaTester2": {
+        "message": "Saya melihat Anda memiliki akses ke beberapa fitur beta."
+    },
+    "homeheader_secretmessage_BetaTester3": {
+        "message": "Bersenang-senanglah dengan apa pun yang Anda lakukan hari ini ;)"
+    },
+    "homeheader_secretmessage_BetaTester4": {
+        "message": "Tidak sekeren seorang Peramal."
+    },
+    "homeheader_secretmessage_BetaTester5": {
+        "message": "Satu dari sedikit."
+    },
+
+    "homeheader_secretmessage_Soothsayer1": {
+        "message": "Peran publik yang bagus yang Anda miliki di sana."
+    },
+    "homeheader_secretmessage_Soothsayer2": {
+        "message": "Anda mungkin memiliki email @roblox.com."
+    },
+    "homeheader_secretmessage_Soothsayer3": {
+        "message": "Anda bahkan tidak perlu membayar untuk akses pengalaman pada pengalaman akses berbayar?????"
+    },
+    "homeheader_secretmessage_Soothsayer4": {
+        "message": "Jelas lebih keren dari BetaTester biasa."
+    },
+    "homeheader_secretmessage_Soothsayer5": {
+        "message": "Apakah Internal Studio keren?"
+    },
+    "homeheader_secretmessage_Soothsayer6": {
+        "message": "Bagaimana pengujian collectible berjalan?"
+    },
+
+    // Translators can put whatever message they like in here, remember: this is crowd-sourced
+    "homeheader_secretmessage_NonEnglish": {
+        "message": "Kamu nanya?"
+    },
+
+    "homeheader_birthdaymessage": {
+        "message": "Selamat ulang tahun,"
+    },
+
+    "pinunlockmodal_title": {
+        "message": "{sealEmoji} PIN Akun Diperlukan"
+    },
+    "pinunlockmodal_description": {
+        "message": "Masukkan PIN yang dilampirkan ke akun Anda"
+    },
+    "pinunlockmodal_buttons_action": {
+        "message": "Bukalah"
+    },
+
+    "generalasset_created": {
+        "message": "Dibuat"
+    },
+    "generalasset_updated": {
+        "message": "Diperbarui"
+    },
+
+    "generalasset_contextmenu_deletefrominventory": {
+        "message": "Hapus dari Inventaris"
+    },
+
+    "badge_created": {
+        "message": "Dibuat"
+    },
+    "badge_contextmenu_viewiconasset": {
+        "message": "Lihat Aset Ikon"
+    },
+
+    "chat_sorttypes_label": {
+        "message": "Sortir dengan"
+    },
+    "chat_sorttypes_type_Default": {
+        "message": "Normal"
+    },
+    "chat_sorttypes_type_NewestFirst": {
+        "message": "Pertama Terbaru"
+    },
+    "chat_sorttypes_type_OldestFirst": {
+        "message": "Terlama dulu"
+    },
+    "chat_sorttypes_type_UnreadFirst": {
+        "message": "Belum dibaca dulu"
+    },
+
+    "pass_created": {
+        "message": "Dibuat"
+    },
+    "pass_updated": {
+        "message": "Diperbarui"
+    },
+    "pass_contextmenu_viewiconasset": {
+        "message": "Lihat Aset Ikon"
+    },
+
+    "group_created": {
+        "message": "Dibuat"
+    },
+    "group_contextmenu_viewiconasset": {
+        "message": "Lihat Aset Ikon"
+    },
+
+    "navbar_left_transactions": {
+        "message": "Transaksi"
+    },
+
+    "userlookup_placeholder": {
+        "message": "Nama Pegguna"
+    },
+    "userlookup_directlookuperror": {
+        "message": "Pengguna dengan nama pengguna tersebut tidak ditemukan."
+    },
+
+    "discover_filters_label": {
+        "message": "Filter"
+    },
+    "discover_filters_inputhint": {
+        "message": "Input angka yang tersisa sebagai 0 akan diabaikan"
+    },
+    "discover_filters_applyfilters": {
+        "message": "Terapkan Filter"
+    },
+    "discover_filters_likes": {
+        "message": "Menyukai %"
+    },
+    "discover_filters_playing": {
+        "message": "Bermain"
+    },
+    "discover_filters_favorites": {
+        "message": "Favorit"
+    },
+    "discover_filters_visits": {
+        "message": "Kunjungan"
+    },
+    "discover_filters_genre": {
+        "message": "Genre"
+    },
+    "discover_filters_genre_values_All": {
+        "message": "Semua"
+    },
+    "discover_filters_genre_values_Building": {
+        "message": "Bangunan"
+    },
+    "discover_filters_genre_values_Horror": {
+        "message": "Horror"
+    },
+    "discover_filters_genre_values_TownandCity": {
+        "message": "Kota"
+    },
+    "discover_filters_genre_values_Military": {
+        "message": "Militer"
+    },
+    "discover_filters_genre_values_Comedy": {
+        "message": "Komedi"
+    },
+    "discover_filters_genre_values_Medieval": {
+        "message": "Medieval"
+    },
+    "discover_filters_genre_values_Adventure": {
+        "message": "Petualangan"
+    },
+    "discover_filters_genre_values_SciFi": {
+        "message": "Sci-Fi"
+    },
+    "discover_filters_genre_values_Naval": {
+        "message": "Naval"
+    },
+    "discover_filters_genre_values_FPS": {
+        "message": "FPS"
+    },
+    "discover_filters_genre_values_RPG": {
+        "message": "RPG"
+    },
+    "discover_filters_genre_values_Sports": {
+        "message": "Olahraga"
+    },
+    "discover_filters_genre_values_Fighting": {
+        "message": "Berkelahi"
+    },
+    "discover_filters_genre_values_Western": {
+        "message": "Barat"
+    },
+
+    "discover_filters_filter_minimum": {
+        "message": "Minimum"
+    },
+    "discover_filters_filter_maximum": {
+        "message": "Maximum"
+    },
+
+    "experience_events_tab": {
+        "message": "Acara"
+    },
+    "experience_events_noevents": {
+        "message": "Tidak ada acara yang tersedia."
+    },
+
+    "experience_badges_tab": {
+        "message": "Tidak ada acara yang tersedia"
+    },
+    "experience_badges_viewas": {
+        "message": "Menampilkan sebagai:"
+    },
+    "experience_badges_comparewith": {
+        "message": "Dibandingkan dengan:"
+    },
+
+    "experience_badges_filtering_active": {
+        "message": "Tampilkan Item Aktif"
+    },
+    "experience_badges_filtering_inactive": {
+        "message": "Tampilkan Item Tidak Aktif"
+    },
+    "experience_badges_filtering_obtained": {
+        "message": "Tampilkan Item yang Diperoleh"
+    },
+    "experience_badges_filtering_unobtained": {
+        "message": "Tampilkan Item yang Tidak Diperoleh"
+    },
+    "experience_badges_sorting_sortby_label": {
+        "message": "Sortir dengan"
+    },
+    "experience_badges_sorting_sortdirection_label": {
+        "message": "Sortir Arah"
+    },
+    "experience_badges_sorting_sortobtained_label": {
+        "message": "Sortir Diperoleh"
+    },
+    "experience_badges_sorting_sortby_values_WonYesterday": {
+        "message": "Dimenang Kemarin"
+    },
+    "experience_badges_sorting_sortby_values_WonAllTime": {
+        "message": "Dimenang Sepanjang Masa"
+    },
+    "experience_badges_sorting_sortby_values_AwardedTime": {
+        "message": "Diberikan Terbaru"
+    },
+    "experience_badges_sorting_sortby_values_Created": {
+        "message": "Dibuat"
+    },
+    "experience_badges_sorting_sortby_values_Name": {
+        "message": "Nama"
+    },
+    "experience_badges_sorting_sortdirection_values_Ascending": {
+        "message": "Menaik"
+    },
+    "experience_badges_sorting_sortdirection_values_Descending": {
+        "message": "Menurun"
+    },
+    "experience_badges_sorting_sortobtained_values_First": {
+        "message": "Pertama"
+    },
+    "experience_badges_sorting_sortobtained_values_Last": {
+        "message": "Terakhir"
+    },
+    "experience_badges_sorting_sortobtained_values_Default": {
+        "message": "Normal"
+    },
+    "experience_badges_sortsandfilters": {
+        "message": "Sortir dan Filter"
+    },
+
+    "experience_badges_nofilteredbadges": {
+        "message": "Tidak ada lencana yang difilter untuk ditampilkan."
+    },
+
+    "experience_badges_nobadges": {
+        "message": "Tidak ada lencana yang tersedia."
+    },
+    "experience_badges_completed": {
+        "message": "Dilengkap: {numCompleted}/{numTotal}"
+    },
+    "experience_badges_wonyesterday": {
+        "message": "% Dimenang Kemarin"
+    },
+    "experience_badges_usercompleted": {
+        "message": "{numCompleted}/{numTotal}"
+    },
+    "experience_badges_awardederror": {
+        "message": "Terjadi kesalahan saat mengambil info yang diberikan lencana, harap coba lagi nanti."
+    },
+    "experience_badges_genericerror": {
+        "message": "Terjadi kesalahan saat mengambil lencana, harap coba lagi nanti."
+    },
+
+    "experience_badges_badge_inactive": {
+        "message": "Tidak aktif"
+    },
+    "experience_badges_badged_yesterdaypercentage": {
+        "message": "{percentage}%"
+    },
+    "experience_badges_badge_awarded": {
+        "message": "Diberikan saat {time}"
+    },
+    "experience_badges_badge_wonalltime": {
+        "message": "Dimenang Sepanjang Masa"
+    },
+    "experience_badges_badge_wonyesterday": {
+        "message": "Dimenang Kemarin"
+    },
+
+    "experience_privatenote_title": {
+        "message": "Catatan Pribadi"
+    },
+    "experience_privatenote_hint": {
+        "message": "Catatan ini bersifat pribadi, hanya Anda yang dapat melihatnya."
+    },
+    "experience_privatenote_placeholder": {
+        "message": "Temperamen atau pengaturan khusus untuk pengalaman ini..."
+    },
+    "experience_privatenote_length": {
+        "message": "{length}/{maxLength}"
+    },
+    "experience_privatenote_buttons_cancel": {
+        "message": "Batalkan"
+    },
+    "experience_privatenote_buttons_save": {
+        "message": "Simpankan"
+    },
+    "experience_privatenote_readmore": {
+        "message": "Baca selengkapnya"
+    },
+    "experience_privatenote_readless": {
+        "message": "Baca Lebih Sedikit"
+    },
+
+    "itempages_contextmenu_reportabuse": {
+        "message": "Laporkan Penyalahgunaan"
+    },
+
+    "userprofile_actions_cancelrequest": {
+        "message": "Batalkan"
+    },
+    "userprofile_actions_cancelledrequest": {
+        "message": "Dibatalkan"
+    },
+
+    "userprofile_lastonline": {
+        "message": "Online Terakhir"
+    },
+
+    "userfriends_newtitle": {
+        "message": "Teman-Teman {displayName} (@{username})"
+    },
+
+    "userfriends_contextmenu_unfriend": {
+        "message": "Hapus pertemanan"
+    },
+    "userfriends_contextmenu_unfollow": {
+        "message": "Berhenti mengikuti"
+    },
+    "userfriends_contextmenu_forceunfollow": {
+        "message": "Paksa Berhenti Mengikuti"
+    },
+    "userfriends_contextmenu_block": {
+        "message": "Blokir"
+    },
+
+    "userfriends_systemfeedback_success_unfriend": {
+        "message": "Berhasil membatalkan pertemanan dengan pengguna."
+    },
+    "userfriends_systemfeedback_success_unfollow": {
+        "message": "Berhasil berhenti mengikuti pengguna."
+    },
+    "userfriends_systemfeedback_success_forceunfollow": {
+        "message": "Berhasil memaksa pengguna berhenti mengikuti Anda."
+    },
+    "userfriends_systemfeedback_success_block": {
+        "message": "Berhasil memblokir pengguna."
+    },
+    "userfriends_systemfeedback_genericerror": {
+        "message": "Terjadi kesalahan saat memproses tindakan, harap coba lagi nanti."
+    },
+
+    "avatarshop_colorfilters_title": {
+        "message": "Warna"
+    },
+    "avatarshop_colorfilters_items_primary": {
+        "message": "Utama"
+    },
+    "avatarshop_colorfilters_items_secondary": {
+        "message": "Sekunder"
+    },
+    "avatarshop_colorfilters_items_any": {
+        "message": "Apa pun"
+    },
+
+    "group_pendingrequests": {
+        "message": "Permintaan Bergabung Tertunda"
+    },
+    "group_typesswitch_joined": {
+        "message": "Bergabung"
+    },
+    "group_typesswitch_pending": {
+        "message": "Tertunda"
+    },
+    "group_discovergroups": {
+        "message": "Temukan Grup"
+    },
+    "group_creategroup": {
+        "message": "Membuat grup"
+    },
+
+    "messages_getunreadr2e_pending": {
+        "message": "Tertunda"
+    },
+    "messages_getunreadr2e_error": {
+        "message": "Error"
+    },
+    "messages_getunreadr2e_request": {
+        "message": "Minta R2E yang Belum Dibaca"
+    },
+    "messages_getunreadr2e_download": {
+        "message": "Unduh R2E yang Belum Dibaca"
+    },
+    "messages_getunreadr2e_markread": {
+        "message": "Tandai Belum Dibaca R2Es Telah Dibaca"
+    },
+
+    "messages_getunreadr2e_markreadmodal_title": {
+        "message": "Tandai R2E sebagai Baca"
+    },
+    "messages_getunreadr2e_markreadmodal_body": {
+        "message": "Apakah Anda ingin menandai pesan R2E sebagai telah dibaca?"
+    },
+    "messages_getunreadr2e_markreadmodal_action": {
+        "message": "Tandai sebagai membaca"
+    },
+    "messages_getunreadr2e_markreadmodal_neutral": {
+        "message": "Batalkan"
+    },
+
+    "force2svmodal_title": {
+        "message": "{sealEmoji} Diperlukan Verifikasi Dua Langkah"
+    },
+    "force2svmodal_body": {
+        "message": "Karena masalah keamanan, Anda harus mengaktifkan verifikasi dua langkah untuk menggunakan fitur ini.{lineBreak}{lineBreak}Apakah Anda ingin membuka setelan keamanan akun?"
+    },
+    "force2svmodal_action": {
+        "message": "Oke"
+    },
+    "force2svmodal_neutral": {
+        "message": "Batalkan"
+    },
+
+    "group_pendingrequests_systemfeedback_genericerror": {
+        "message": "Gagal membatalkan permintaan bergabung, harap coba lagi nanti."
+    },
+    "group_pendingrequests_systemfeedback_success": {
+        "message": "Berhasil membatalkan permintaan bergabung."
+    },
+
+    "group_foldercustomization_modal_title": {
+        "message": "{sealEmoji} Sesuaikan Folder Grup"
+    },
+    "group_foldercustomization_modal_field_name": {
+        "message": "Nama"
+    },
+    "group_foldercustomization_modal_lengthtip": {
+        "message": "{length}/{maxLength}"
+    },
+    "group_foldercustomization_modal_field_name_placeholder": {
+        "message": "Nama Folder"
+    },
+    "group_foldercustomization_modal_field_color": {
+        "message": "Warna"
+    },
+    "group_foldercustomization_modal_action": {
+        "message": "Simpankan"
+    },
+    "group_foldercustomization_modal_neutral": {
+        "message": "Batalkan"
+    },
+
+    "transactions_hide0robuxamount": {
+        "message": "Sembunyikan transaksi dengan jumlah 0 Robux"
+    },
+    "transactions_hideprivateservers": {
+        "message": "Sembunyikan transaksi Server Pribadi"
+    },
+
+    "features_section_home": {
+        "message": "Beranda"
+    },
+    "features_section_home_general": {
+        "message": "Umum"
+    },
+    "features_section_experiences": {
+        "message": "Pengalaman"
+    },
+    "features_section_experiences_discover": {
+        "message": "Temukan"
+    },
+    "features_section_experiences_general": {
+        "message": "Umum"
+    },
+    "features_section_experiences_store": {
+        "message": "Toko"
+    },
+    "features_section_account": {
+        "message": "Akun"
+    },
+    "features_section_account_general": {
+        "message": "Umum"
+    },
+    "features_section_miscellaneous": {
+        "message": "Aneka Ragam"
+    },
+    "features_section_miscellaneous_itempages": {
+        "message": "Halaman Barang"
+    },
+    "features_section_miscellaneous_transactionspage": {
+        "message": "Halaman Transaksi"
+    },
+    "features_section_miscellaneous_seals": {
+        "message": "Anjing Laut"
+    },
+    "features_section_miscellaneous_navbars": {
+        "message": "Bar Navigasi"
+    },
+    "features_section_miscellaneous_avatarshop": {
+        "message": "Pasar"
+    },
+    "features_section_miscellaneous_chat": {
+        "message": "Mengobrol"
+    },
+    "features_section_miscellaneous_avatar": {
+        "message": "Avatar"
+    },
+    "features_section_miscellaneous_messages": {
+        "message": "Pesan"
+    },
+    "features_section_miscellaneous_general": {
+        "message": "Umum"
+    },
+    "features_section_users": {
+        "message": "Pengguna"
+    },
+    "features_section_users_friendspage": {
+        "message": "Halaman Teman"
+    },
+    "features_section_users_profile": {
+        "message": "Profil"
+    },
+    "features_section_groups": {
+        "message": "Grup"
+    },
+    "features_section_groups_navigation": {
+        "message": "Navigasi"
+    },
+    "features_section_groups_walls": {
+        "message": "Dinding"
+    },
+
+    "features_RemoveHomePageUnnecessarySorts_title": {
+        "message": "Hapus pengurutan yang \"tidak perlu\" dari pengurutan asal"
+    },
+    "features_RemoveHomePageUnnecessarySorts_description": {
+        "message": "Saat diaktifkan, hapus jenis apa pun dari laman Beranda yang tidak cocok dengan \"Disarankan Untuk Anda\", \"Favorit\", \"Lanjutkan\", \"Teman Bermain\", atau \"Bersponsor\"."
+    },
+    "features_RefreshedHomeUserHeader_title": {
+        "message": "Header pengguna yang dimuat ulang"
+    },
+    "features_RefreshedHomeUserHeader_description": {
+        "message": "Saat diaktifkan, akan menampilkan tajuk pengguna lama di beranda dengan beberapa perbedaan."
+    },
+    "features_RefreshedHomeUserHeader_sub_BasedText_title": {
+        "message": "Peluang 10% dari pesan yang dipilih berdasarkan peran publik Anda"
+    },
+    "features_RefreshedHomeUserHeader_sub_BirthdayMessage_title": {
+        "message": "Pesan ulang tahun"
+    },
+    "features_RefreshedHomeUserHeader_sub_HelloText_title": {
+        "message": "\"Halo,\" salam"
+    },
+    "features_MoveExperienceSocialLinks_title": {
+        "message": "Pindahkan pengalaman Tautan Sosial di atas Deskripsi di tab Tentang"
+    },
+    "features_AddCommunityWikiButton_title": {
+        "message": "Tambahkan tombol untuk mengunjungi Wiki Komunitas tidak resmi dari sebuah pengalaman di tab Tentang"
+    },
+    "features_AddCommunityWikiButton_description": {
+        "message": "Saat diaktifkan, ekstensi akan menampilkan tombol untuk mengunjungi wiki tidak resmi yang merupakan bagian dari proyek Roblox Interwiki di Fandom untuk pengalaman jika diketahui oleh RoSeal."
+    },
+    "features_RemovePrivateServersSectionInAbout_title": {
+        "message": "Hapus bagian server pribadi di tab Tentang"
+    },
+    "features_DeveloperProductsInExperienceStore_title": {
+        "message": "Produk Pengembang di tab toko pengalaman"
+    },
+    "features_DeveloperProductsInExperienceStore_description": {
+        "message": "Saat diaktifkan, akan ditampilkan Produk Pengembang dalam tarik-turun di bawah tab Toko. Membuat halaman baru untuk melihat detail Produk Pengembang."
+    },
+    "features_ExperienceStoreItemFiltering_title": {
+        "message": "Opsi pemfilteran di tab toko pengalaman"
+    },
+    "features_ExperienceStoreItemFiltering_description": {
+        "message": "Saat diaktifkan, tampilkan opsi pemfilteran tambahan di tab Passes dan Developer Products di toko pengalaman."
+    },
+    "features_WebsiteOfflineMode_title": {
+        "message": "Tampilkan sebagai offline saat hanya di situs web"
+    },
+    "features_WebsiteOfflineMode_description": {
+        "message": "Saat diaktifkan, tidak ada yang akan tahu saat Anda berada di situs web. Mungkin diperlukan waktu beberapa menit untuk diterapkan."
+    },
+    "features_AccountsManager_title": {
+        "message": "Manajer akun"
+    },
+    "features_AccountsManager_description": {
+        "message": "Saat diaktifkan, tambahkan item baru ke navigasi atas yang mengaktifkan sembulan untuk mengelola akun Anda. Gunakan dengan risiko Anda sendiri."
+    },
+    "features_ThemeSwitchThroughoutDay_title": {
+        "message": "Sinkronkan tema situs web dengan browser"
+    },
+    "features_CreatedUpdatedItemsTimeType_title": {
+        "message": "Ubah jenis waktu bidang Dibuat/Diperbarui/Bergabung pada halaman item"
+    },
+    "features_CreatedUpdatedItemsTimeType_description": {
+        "message": "Saat dipilih, ubah teks bidang Dibuat, Diperbarui, atau Digabungkan pada item yang berlaku untuk jenis pilihan Anda."
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Disabled": {
+        "message": "Dimatikan"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Relative": {
+        "message": "Relatif"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Absolute": {
+        "message": "Absolut"
+    },
+    "features_CreatedUpdatedItemsTimeType_values_Regular": {
+        "message": "Roblox Reguler"
+    },
+    "features_PersistentTransactionsSelection_title": {
+        "message": "Pilihan dropdown yang terus-menerus"
+    },
+    "features_PersistentTransactionsSelection_description": {
+        "message": "Saat diaktifkan, pilihan dropdown terakhir Anda akan tetap ada, bahkan setelah menutup halaman. Mungkin rusak saat Anda menerima jenis transaksi baru."
+    },
+    "features_BetterRobuxNavigation_title": {
+        "message": "Navigasi Robux yang lebih baik"
+    },
+    "features_BetterRobuxNavigation_description": {
+        "message": "Saat diaktifkan, akan ditambahkan tombol Plus di sebelah Robux di navigasi atas untuk mengalihkan ke pembelian Robux, dan tambahkan item Transaksi baru ke navigasi kiri."
+    },
+    "features_MoveAgeBracket_title": {
+        "message": "Pindahkan braket usia ke navigasi kiri"
+    },
+    "features_DisableDesktopApp_title": {
+        "message": "Hapus spanduk Aplikasi Desktop"
+    },
+    "features_ViewItemIconThumbnailAssets_title": {
+        "message": "Tambahkan tautan untuk melihat aset thumbnail/ikon dari item yang berlaku"
+    },
+    "features_ViewItemIconThumbnailAssets_description": {
+        "message": "Saat diaktifkan, akan ditambahkan link di menu konteks halaman detail item untuk melihat aset ikon item jika berlaku. Ini juga berlaku untuk media pengalaman di carousel tentang detail pengalaman."
+    },
+    "features_UserFriendsPageContextMenu_title": {
+        "message": "Quick actions in the user's friends page"
+    },
+    "features_UserFriendsPageContextMenu_description": {
+        "message": "When enabled, adds or replaces a context menu on friend cards in the user's friend page for quick actions. Quick actions include blocking, unfriend, unfollowing, and force unfollow."
+    },
+    "features_UserProfileAddMargins_title": {
+        "message": "Add padding between sections in the user profile page"
+    },
+    "features_ItemPagesMoveReportAbuse_title": {
+        "message": "Move the Report Abuse buttons to the item context menus if applicable"
+    },
+    "features_ItemMentions_title": {
+        "message": "Formatted user/group mentions in item descriptions"
+    },
+    "features_ItemMentions_description": {
+        "message": "When enabled, @user, user links, and group links from item descriptions will be transformed into a link with an avatar headshot or group thumbnail image."
+    },
+    "features_UserProfileCancelRequest_title": {
+        "message": "Cancel outgoing friend request on profile"
+    },
+    "features_ListPendingGroups_title": {
+        "message": "List groups with pending join requests in navigation"
+    },
+    "features_ListPendingGroups_description": {
+        "message": "When enabled, adds tabs navigation with \"Pending\" to the groups navigation."
+    },
+    "features_DisableAvatarShopInfiniteScrolling_title": {
+        "message": "Disable Marketplace infinite scrolling"
+    },
+    "features_DisableGroupWallInfiniteScrolling_title": {
+        "message": "Disable Group Wall infinite scrolling"
+    },
+    "features_BlockExperiences_title": {
+        "message": "Block experiences"
+    },
+    "features_BlockExperiences_description": {
+        "message": "When enabled, adds a new section for blocking individual experiences and keywords from showing on some common pages to RoSeal settings. You can block individual experiences from the context menu on an experience's details page."
+    },
+    "features_ShowExperienceUniverseId_title": {
+        "message": "Show Experience Universe ID"
+    },
+    "features_Enable3DThumbnailDynamicLighting_title": {
+        "message": "Enable 3D Thumbnail Dynamic Lighting"
+    },
+    "features_ChatSortTypes_title": {
+        "message": "Chat sort types"
+    },
+    "features_ChatSortTypes_description": {
+        "message": "When enabled, adds new sort types to the Chat box for filtering through conversations."
+    },
+    "features_Transactions0RobuxAmountToggle_title": {
+        "message": "Toggle to hide transactions with 0 Robux amounts"
+    },
+    "features_TransactionsPrivateServersToggle_title": {
+        "message": "Toggle to hide Private Server transactions"
+    },
+    "features_GroupOrganization_title": {
+        "message": "Group organization customization"
+    },
+    "features_GroupOrganization_description": {
+        "message": "When enabled, allows for reorganizing groups and creating group folders with drag and drop. Group folders can then be further customized."
+    },
+    "features_BetterExperienceBadges_title": {
+        "message": "Better experience badges list"
+    },
+    "features_BetterExperienceBadges_description": {
+        "message": "When enabled, adds a new tab to experience details that contains a better experience badges list. You can also view inactive badges, awarded dates for badges, and compare your badges with another user. This is unstable for experiences with a significantly large number of badges."
+    },
+    "features_BetterExperiencesBadges_sub_FiltersAndSorts_title": {
+        "message": "Experience badges filters and sorts"
+    },
+    "features_BetterExperiencesBadges_sub_DisableRobloxBadges_title": {
+        "message": "Disable Roblox's badges section"
+    },
+    "features_UserProfileLastOnline_title": {
+        "message": "Show user's last online date"
+    },
+    "features_ChangeNavFriendsHash_title": {
+        "message": "Change default users' friends tab from the navigation bar"
+    },
+    "features_ChangeNavFriendsHash_values_friends": {
+        "message": "Friends"
+    },
+    "features_ChangeNavFriendsHash_values_following": {
+        "message": "Following"
+    },
+    "features_ChangeNavFriendsHash_values_followers": {
+        "message": "Followers"
+    },
+    "features_ChangeNavFriendsHash_values_friendrequests": {
+        "message": "Friend Requests"
+    },
+    "features_HideFriendRequestsCount_title": {
+        "message": "Hide friend requests count in the navigation bar"
+    },
+    "features_SealImages_title": {
+        "message": "Replace all images with seal images"
+    },
+    "features_ExperienceMediaAltTextButton_title": {
+        "message": "Better experience thumbnail alt text button"
+    },
+    "features_ShowExperienceAvatarType_title": {
+        "message": "Show experience restricted avatar type in statistics"
+    },
+    "features_ShowExperienceAvatarType_description": {
+        "message": "When enabled, adds an \"Avatar Type\" statistic to the experience statistics. It will also display a warning over the play button if your current avatar will be restricted in the experience."
+    },
+    "features_AssetDeleteFromInventory_title": {
+        "message": "\"Delete from Inventory\" button in asset item menu"
+    },
+    "features_AssetDeleteFromInventory_description": {
+        "message": "When enabled, adds a \"Delete from Inventory\" button in an asset item's item menu if it doesn't already exist. Due to security concerns, a two step verification challenge is required."
+    },
+    "features_UserFriendsPageNewTitle_title": {
+        "message": "Show username in user's friends page title"
+    },
+    "features_ExperiencePrivateNote_title": {
+        "message": "Experience private note in About section"
+    },
+    "features_AccountPinPromptMoreLocations_title": {
+        "message": "Show the account pin prompt in more locations"
+    },
+    "features_AccountPinPromptMoreLocations_description": {
+        "message": "When enabled, shows the account pin unlock prompt in more locations where it usually directs to account settings."
+    },
+    "features_GetUnreadR2EButton_title": {
+        "message": "Request Right-to-Erasures CSV file button"
+    },
+    "features_DiscoverFilters_title": {
+        "message": "Discover Filters"
+    },
+    "features_DiscoverFilters_description": {
+        "message": "When enabled, adds a Filters section to the Discover page. It allows for filtering of all sorts by like percentage, favorite count, player count, visit count and genre."
+    },
+    "features_RoSealSettingDropdown_title": {
+        "message": "\"RoSeal Settings\" item in the Roblox settings dropdown"
+    },
+    "features_AccurateHomeContinueSort_title": {
+        "message": "Accurate non-curated home page \"Continue\" sort"
+    },
+    "features_CSSFixes_title": {
+        "message": "Various (CSS) styling fixes around the site"
+    },
+    "features_MoveExperienceEvents_title": {
+        "message": "Move experience events to it's own tab"
+    },
+    "features_RefreshlessGroupNavigation_title": {
+        "message": "Page refreshless group navigation"
+    },
+    "features_RefreshlessGroupNavigation_description": {
+        "message": "When enabled, navigating to another group from the Group Organization/Pending groups will not require a page refresh."
+    },
+    "features_ItemAdditionalProductInfo_title": {
+        "message": "Show additional product information"
+    },
+    "features_RefreshAvatarItemDetails_title": {
+        "message": "Refresh avatar item details button"
+    },
+    "features_MarketplaceColorFilters_title": {
+        "message": "Marketplace color filters"
+    },
+    "features_RefreshAvatarItemDetails_sub_FastFreeBuy_title": {
+        "message": "Fast Free avatar item purchases"
+    },
+
+    "popup_extensionname": {
+        "message": "{sealEmoji} RoSeal"
+    },
+    "popup_actions_robloxgroup": {
+        "message": "Roblox Group"
+    },
+    "popup_actions_settings": {
+        "message": "Settings"
+    },
+    "popup_actions_website": {
+        "message": "Website"
+    },
+    "popup_permissions": {
+        "message": "Optional Permissions"
+    },
+    "popup_permissions_cookie": {
+        "message": "Cookies"
+    },
+
+    "popup_extensiondata_show": {
+        "message": "Show"
+    },
+    "popup_extensiondata_hide": {
+        "message": "Hide"
+    },
+    "popup_extensiondata": {
+        "message": "Extension Data"
+    },
+    "popup_extensiondata_download": {
+        "message": "Download Data"
+    },
+    "popup_extensiondata_request": {
+        "message": "Request Data"
+    },
+    "popup_extensiondata_import": {
+        "message": "Import"
+    },
+    "popup_extensiondata_import_alert_succcess": {
+        "message": "Successfully imported data."
+    },
+    "popup_extensiondata_import_alert_error": {
+        "message": "Please try again with a valid data file."
+    },
+
+    "buymeacoffee": {
+        "message": "{coffeeEmoji} Buy me a coffee"
+    }
+}
